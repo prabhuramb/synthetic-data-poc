@@ -1,0 +1,37 @@
+{
+  "run_timestamp_utc": "2026-09-24T05:27:19.816856+00:00",
+  "generation_seed": 42,
+  "n_customers_generated": 1000,
+  "validation_results": {
+    "leakage_check": {
+      "generated_records_checked": 1000,
+      "fields_checked_per_record": 4,
+      "leaks_found": 0,
+      "leak_details": []
+    },
+    "referential_integrity_check": {
+      "orders_checked": 1564,
+      "orders_with_valid_customer_reference": 1564,
+      "broken_references": []
+    },
+    "statistical_fidelity_check": {
+      "target_region_proportions": {
+        "West": 0.3333333333333333,
+        "East": 0.3333333333333333,
+        "Central": 0.3333333333333333
+      },
+      "actual_region_proportions": {
+        "West": 0.327,
+        "East": 0.324,
+        "Central": 0.349
+      },
+      "max_region_proportion_deviation": 0.0157,
+      "target_balance_mean": 4709.72,
+      "actual_balance_mean": 4753.54,
+      "balance_mean_deviation_pct": 0.93,
+      "target_balance_stdev": 2682.79,
+      "actual_balance_stdev": 2491.35,
+      "balance_stdev_deviation_pct": 7.14
+    }
+  }
+}

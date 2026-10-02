@@ -1,0 +1,20 @@
+{
+  "_note": "This entire file is invented data created for this demonstration. It does not come from, and is not derived from, any employer or client system, and contains no real individuals' information. It stands in for a small protected production dataset for the sole purpose of testing whether the generator in generator.py can produce statistically similar synthetic data without ever copying these values.",
+  "customers": [
+    {"customer_id": "PROD-0001", "full_name": "Elena Marsh",      "email": "elena.marsh@protected-example.test",      "region": "West",    "account_balance": 4820.50},
+    {"customer_id": "PROD-0002", "full_name": "Derek Nolan",      "email": "derek.nolan@protected-example.test",      "region": "East",    "account_balance": 1120.00},
+    {"customer_id": "PROD-0003", "full_name": "Priya Chandran",   "email": "priya.chandran@protected-example.test",   "region": "Central", "account_balance": 9875.25},
+    {"customer_id": "PROD-0004", "full_name": "Marcus Webb",      "email": "marcus.webb@protected-example.test",      "region": "West",    "account_balance": 2310.75},
+    {"customer_id": "PROD-0005", "full_name": "Sofia Reyes",      "email": "sofia.reyes@protected-example.test",      "region": "East",    "account_balance": 6640.10},
+    {"customer_id": "PROD-0006", "full_name": "Owen Fitzgerald",  "email": "owen.fitzgerald@protected-example.test",  "region": "Central", "account_balance": 3305.60},
+    {"customer_id": "PROD-0007", "full_name": "Nina Okafor",      "email": "nina.okafor@protected-example.test",      "region": "West",    "account_balance": 7420.00},
+    {"customer_id": "PROD-0008", "full_name": "Tomas Vale",       "email": "tomas.vale@protected-example.test",       "region": "East",    "account_balance": 1985.40},
+    {"customer_id": "PROD-0009", "full_name": "Grace Lindqvist",  "email": "grace.lindqvist@protected-example.test",  "region": "Central", "account_balance": 5150.90},
+    {"customer_id": "PROD-0010", "full_name": "Julian Cross",     "email": "julian.cross@protected-example.test",     "region": "West",    "account_balance": 2745.35},
+    {"customer_id": "PROD-0011", "full_name": "Amara Osei",       "email": "amara.osei@protected-example.test",       "region": "East",    "account_balance": 8890.00},
+    {"customer_id": "PROD-0012", "full_name": "Felix Brandt",     "email": "felix.brandt@protected-example.test",     "region": "Central", "account_balance": 3620.80},
+    {"customer_id": "PROD-0013", "full_name": "Isla MacGregor",   "email": "isla.macgregor@protected-example.test",   "region": "West",    "account_balance": 4990.15},
+    {"customer_id": "PROD-0014", "full_name": "Hugo Beltran",     "email": "hugo.beltran@protected-example.test",     "region": "East",    "account_balance": 1560.60},
+    {"customer_id": "PROD-0015", "full_name": "Yuki Nakashima",   "email": "yuki.nakashima@protected-example.test",   "region": "Central", "account_balance": 6210.45}
+  ]
+}

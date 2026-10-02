@@ -1,0 +1,15 @@
+{
+  "_note": "This profile contains only aggregate statistics. It was derived from protected_reference.json but does not include, and cannot be used to reconstruct, any individual record from that file. In particular, the literal min/max of the reference set are deliberately excluded, since with a small reference set those are themselves exact individual values; a derived statistical bound (mean +/- 3 stdev) is used instead.",
+  "source_record_count": 15,
+  "region_proportions": {
+    "West": 0.3333333333333333,
+    "East": 0.3333333333333333,
+    "Central": 0.3333333333333333
+  },
+  "account_balance": {
+    "mean": 4709.72,
+    "stdev": 2682.79,
+    "safe_min": 0.0,
+    "safe_max": 12758.1
+  }
+}
