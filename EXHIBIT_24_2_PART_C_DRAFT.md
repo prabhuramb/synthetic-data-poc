@@ -1,4 +1,4 @@
-# EXHIBIT 24.2, PART C — SYNTHETIC TEST DATA GENERATION: DEMONSTRATED PROOF-OF-CONCEPT
+# EXHIBIT 23.2, PART C — SYNTHETIC TEST DATA GENERATION: DEMONSTRATED PROOF-OF-CONCEPT
 [DRAFT — read closely, verify every sentence against your own understanding,
 and rewrite anything that isn't genuinely in your own words before this goes
 anywhere near the petition.]
@@ -6,9 +6,9 @@ anywhere near the petition.]
 Author: Prabhuram Balaraman
 Status: Demonstrated proof-of-concept, self-built and self-measured, run on
 my own equipment outside of and unconnected to any employer engagement
-Extends: The specification at Exhibit 24.2, Part B (the "Synthetic test
+Extends: The specification at Exhibit 23.2, Part B (the "Synthetic test
 data generation under privacy constraint" objective) and the configuration-
-driven generation approach demonstrated at Exhibit 24.1, Part A
+driven generation approach demonstrated at Exhibit 23.1, Part A
 Supports: Section IV.B of the Brief in Support of Petition (proposed
 endeavor, component one)
 
@@ -28,7 +28,7 @@ measured.
 
 ## 2. Purpose and scope
 
-Exhibit 24.2, Part B specified a synthetic-data generation objective in the
+Exhibit 23.2, Part B specified a synthetic-data generation objective in the
 abstract: produce test data "that preserves field relationships and
 distributions without copying source values." To test whether that
 specification translates into a working method, I built a small
@@ -141,10 +141,10 @@ for it before treating a privacy control as validated.
 ## 8. Relevance to the proposed endeavor
 
 This exhibit demonstrates that the synthetic-data objective specified at
-Exhibit 24.2, Part B can be operationalized and produces a measurable
+Exhibit 23.2, Part B can be operationalized and produces a measurable
 result, using the same evidentiary discipline as the rest of Exhibit 24: a
 stated method, a stated result, and a stated basis for the comparison. It
-extends work already demonstrated at Exhibit 24.1, Part A (configuration-
+extends work already demonstrated at Exhibit 23.1, Part A (configuration-
 driven generation) to a privacy-constrained setting, and it surfaces a
 genuine engineering consideration -- that a naive statistical profile can
 itself leak individual values -- that is directly relevant to the kind of
