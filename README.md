@@ -55,11 +55,20 @@ successful result. Reporting it strengthens the exhibit rather than
 weakening it: it shows genuine engineering judgment, not a
 result written backwards from a desired conclusion.
 
-## What to do with the results
+## Results
 
-1. Open `results.json` and confirm the numbers make sense to you.
-2. Fill in `WRITEUP_TEMPLATE.md` with your own explanation, including the
-   design correction above -- in your own words.
-3. Run it once more with a different `seed` value (edit the call in
-   `run_poc.py`) if you want a second data point for consistency, the same
-   way we did for the security POC.
+A run of `run_poc.py` produced the following (see `results.json` and `validation_results.json`):
+
+| Check | Result |
+|---|---|
+| Leakage | 0 of 1,000 generated records matched a protected value (4,000 values checked) |
+| Referential integrity | 100% (1,564 of 1,564 orders linked to a generated customer) |
+| Statistical fidelity | Region proportions and mean/standard deviation of the balance field compared against the target profile (details in `validation_results.json`) |
+
+A second run with a different random seed gave the same leakage and referential-integrity results, with fidelity deviations in a comparable range.
+
+## Scope and limits
+
+- This is a small demonstration built on synthetic data only. It contains no employer or client data.
+- Fidelity is measured on region proportions and one numeric field. It does not show the approach works for the full range of data types or relationship structures in a production system.
+- It documents one design correction (see above): clipping to the literal min/max leaked 98 of 1,000 records on the first run, and the profile was changed to use mean ± 3 standard deviations.
