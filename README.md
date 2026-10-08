@@ -49,12 +49,6 @@ derives a safe bound from the distribution itself (mean +/- 3 standard
 deviations). After this correction, leakage dropped to zero across
 multiple runs and random seeds.
 
-This is worth keeping in the write-up honestly -- it's a real finding about
-a real failure mode in naive synthetic-data generation, not just a
-successful result. Reporting it strengthens the exhibit rather than
-weakening it: it shows genuine engineering judgment, not a
-result written backwards from a desired conclusion.
-
 ## Results
 
 A run of `run_poc.py` produced the following (see `results.json` and `validation_results.json`):
