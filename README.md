@@ -1,9 +1,9 @@
 # Synthetic Test Data Generation - Proof-of-Concept
 
 A small, self-contained demonstration of the Synthetic Test Data Generation
-Engine described at Exhibit 24.2, Part B, and shown in the architecture
+Engine described at Exhibit 23.2, Part B, and shown in the architecture
 diagram supporting that section. This extends the configuration-driven
-generation approach already demonstrated at Exhibit 24.1, Part A to a
+generation approach already demonstrated at Exhibit 23.1, Part A to a
 privacy-constrained setting.
 
 ## What this demonstrates
