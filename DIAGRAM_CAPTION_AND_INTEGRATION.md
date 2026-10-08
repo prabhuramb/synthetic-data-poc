@@ -2,9 +2,9 @@
 
 ## Where it goes
 
-Add as a new figure in **Exhibit 24.2, Part B** (the AI-Assisted Test
+Add as a new figure in **Exhibit 23.2, Part B** (the AI-Assisted Test
 Automation Framework Specification), after the existing specification
-table. Call it **Figure 5** (Figures 1-4 already exist across 24.1-24.4).
+table. Call it **Figure 5** (Figures 1-4 already exist across 23.1-23.4).
 
 ## Suggested caption
 
@@ -13,10 +13,10 @@ table. Call it **Figure 5** (Figures 1-4 already exist across 24.1-24.4).
 > Adaptive UI & Pattern Recognition Module, Synthetic Test Data Generation
 > Engine, and Rubric-Based Evaluation Layer) would integrate as a core
 > extension to the TOSCA regression testing environment demonstrated at
-> Exhibit 24.2, Part A. This diagram is a prospective architecture
+> Exhibit 23.2, Part A. This diagram is a prospective architecture
 > specification; the four modules shown have not been implemented or
 > measured as an integrated system. The Synthetic Test Data Generation
-> Engine module is separately demonstrated in isolation at Exhibit 24.2,
+> Engine module is separately demonstrated in isolation at Exhibit 23.2,
 > Part C. The "SAP Fiori User Interface [Integrated Conversational AI
 > Assistant]" element represents a generic, publicly-documented AI
 > assistant capability of the kind evidenced by the Petitioner's SAP Joule
@@ -37,12 +37,12 @@ table. Call it **Figure 5** (Figures 1-4 already exist across 24.1-24.4).
 
 ## One more small edit worth making
 
-Since Exhibit 24.2, Part C now exists (the synthetic data generation POC),
-add one sentence to the **existing text of Exhibit 24.2, Part B** (right
+Since Exhibit 23.2, Part C now exists (the synthetic data generation POC),
+add one sentence to the **existing text of Exhibit 23.2, Part B** (right
 after the specification table, before Figure 5) noting the new sub-part:
 
 > The Synthetic Test Data Generation Engine specified in the table above
-> has since been demonstrated in isolation; see Exhibit 24.2, Part C.
+> has since been demonstrated in isolation; see Exhibit 23.2, Part C.
 
 This keeps the same "specification, then pointer to what's now
-demonstrated" pattern already used at ¶76 of the brief for Exhibit 24.6.
+demonstrated" pattern already used at ¶76 of the brief for Exhibit 23.6.
