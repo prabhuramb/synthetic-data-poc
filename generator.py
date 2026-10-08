@@ -7,7 +7,7 @@ choice enforced by convention, it is a structural fact: this script has no
 code path that reads that file, so it cannot leak a value it never had.
 
 This extends the configuration-driven generation approach demonstrated at
-Exhibit 24.1, Part A (a spreadsheet-driven payload generator) to a privacy-
+Exhibit 23.1, Part A (a spreadsheet-driven payload generator) to a privacy-
 constrained setting: here the "configuration" is an aggregate statistical
 profile rather than a literal transactional data source, and the generator
 must reproduce structure and distribution without ever seeing a source
