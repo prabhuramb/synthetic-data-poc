@@ -66,3 +66,9 @@ A second run with a different random seed gave the same leakage and referential-
 - This is a small demonstration built on synthetic data only. It contains no employer or client data.
 - Fidelity is measured on region proportions and one numeric field. It does not show the approach works for the full range of data types or relationship structures in a production system.
 - It documents one design correction (see above): clipping to the literal min/max leaked 98 of 1,000 records on the first run, and the profile was changed to use mean ± 3 standard deviations.
+
+## License
+
+Code in this repository is licensed under the Apache License, Version 2.0 (see `LICENSE`). Documentation, write-ups, and other non-code files are licensed under Creative Commons Attribution 4.0 International, CC BY 4.0 (see `LICENSE-DOCS.txt`).
+
+Copyright 2026 Prabhuram Balaraman. All data in this repository is synthetic.
